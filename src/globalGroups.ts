@@ -15,4 +15,18 @@ export default defineGkdGlobalGroups([
       },
     ],
   },
+  {
+    key: 1,
+    name: '更新App',
+    fastQuery: true,
+    matchTime: 10000,
+    actionMaximum: 1,
+    resetMatch: 'app',
+    rules: [
+      {
+        key: 0,
+        matches: ['TextView[text="暂不更新"]'],
+      },
+    ],
+  },
 ]);
