@@ -67,6 +67,11 @@ export default defineGkdSubscription({
   id:
 ```
 
+## Reference docs
+
+- [App Rule](https://gkd.li/api/interfaces/RawAppRule)
+- [Global Rule](https://gkd.li/api/interfaces/RawGlobalRule)
+
 ## 格式修复
 
 我们使用 [prettier](https://github.com/prettier/prettier) 来格式化代码 和 [eslint](https://github.com/eslint/eslint) 来检测并修复代码错误
